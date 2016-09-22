@@ -7,7 +7,7 @@ choose from. The user also has the option to choose from 4 inputs to generate a 
 password. They can determine the number of words, the character that links each word,
 and add a symbol and/or a number to the end of the password. 
 
-Screencast Demo: https://drive.google.com/open?id=0B8kZvNPkYVOyWGpHd29hX0RtX28
+Screencast Demo: https://drive.google.com/open?id=0B8kZvNPkYVOyMGJlVUdZQUxXbjQ
 
 Note: The HTML and CSS for the project was written by me. I did however modify my
 function that uses a DOM Parser to pull down a long dictionary of words and export
