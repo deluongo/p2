@@ -20,14 +20,8 @@ if (isset($_GET["submit"])) {
     if ($_GET['symbol'] == 'yes') {
         $symbol = $_GET['symbol'];
     }
-    else {
-        #$symbol = 'no';
-    }
     if ($_GET['number'] == 'yes') {
         $number = $_GET['number'];
-    }
-    else {
-        #$number = 'no';
     }
 }
 
@@ -55,6 +49,7 @@ function get_words($url){
 }
 
 //Scrape words from a dictionary site
+//Site is saved so as not to leverage their resources
 $array_words = [];
 for ($x = 1; $x <= 10; $x++) {
     $z=$x*2;
