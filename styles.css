@@ -1,0 +1,42 @@
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+span {
+  font-weight: bold;
+}
+h1 {
+  color: #89bdd3;
+}
+
+fieldset {
+    border-color:#89bdd3;
+    border-style: solid;
+}
+
+legend {
+  color: #9ad3de;
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #c9c9c9; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#c9c9c9;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#c9c9c9; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+
+p {
+  color: #1E1E1E;
+}
